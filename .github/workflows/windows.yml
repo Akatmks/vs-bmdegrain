@@ -68,7 +68,7 @@ jobs:
         copy install\bin\bmdegrain.dll artifact\
 
     - name: Upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: bmdegrain-windows-x64
         path: artifact
